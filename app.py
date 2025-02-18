@@ -3,7 +3,7 @@ from transformers import GPT2LMHeadModel, GPT2Tokenizer
 import torch
 
 # Load the GPT-2 model and tokenizer
-model_name = 'path_to_your_finetuned_model'
+model_name = './fine_tuned_gpt2_medquad'
 model = GPT2LMHeadModel.from_pretrained(model_name)
 tokenizer = GPT2Tokenizer.from_pretrained(model_name)
 

@@ -1,0 +1,2 @@
+transformers
+torch  # If using PyTorch-based models
